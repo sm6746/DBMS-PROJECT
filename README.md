@@ -53,3 +53,4 @@ Functional Specification:
 3. import the SQL file present in SQL Files Folder using import option in phpmyadmin.
 4. changes credentials in sql.php file with your database credentials.
 5. open localhost in browser. you see the home page-->
+
