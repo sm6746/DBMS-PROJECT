@@ -54,3 +54,4 @@ Functional Specification:
 4. changes credentials in sql.php file with your database credentials.
 5. open localhost in browser. you see the home page-->
 
+
