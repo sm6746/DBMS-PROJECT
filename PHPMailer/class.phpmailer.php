@@ -2,85 +2,38 @@
 
 class PHPMailer
 {
-    /**
-     * The PHPMailer Version number.
-     * @var string
-     */
+    
     public $Version = '5.2.28';
 
-    /**
-     * Email priority.
-     * Options: null (default), 1 = High, 3 = Normal, 5 = low.
-     * When null, the header is not set at all.
-     * @var integer
-     */
+    
     public $Priority = null;
 
-    /**
-     * The character set of the message.
-     * @var string
-     */
     public $CharSet = 'iso-8859-1';
 
-    /**
-     * The MIME Content-type of the message.
-     * @var string
-     */
+    
     public $ContentType = 'text/plain';
 
-    /**
-     * The message encoding.
-     * Options: "8bit", "7bit", "binary", "base64", and "quoted-printable".
-     * @var string
-     */
+   
     public $Encoding = '8bit';
 
-    /**
-     * Holds the most recent mailer error message.
-     * @var string
-     */
     public $ErrorInfo = '';
 
-    /**
-     * The From email address for the message.
-     * @var string
-     */
+   
     public $From = 'root@localhost';
 
-    /**
-     * The From name of the message.
-     * @var string
-     */
+    
     public $FromName = 'Root User';
 
-    /**
-     * The Sender email (Return-Path) of the message.
-     * If not empty, will be sent via -f to sendmail or as 'MAIL FROM' in smtp mode.
-     * @var string
-     */
+   
     public $Sender = '';
 
-    /**
-     * The Return-Path of the message.
-     * If empty, it will be set to either From or Sender.
-     * @var string
-     * @deprecated Email senders should never set a return-path header;
-     * it's the receiver's job (RFC5321 section 4.4), so this no longer does anything.
-     * @link https://tools.ietf.org/html/rfc5321#section-4.4 RFC5321 reference
-     */
+    
     public $ReturnPath = '';
 
-    /**
-     * The Subject of the message.
-     * @var string
-     */
+    
     public $Subject = '';
 
-    /**
-     * An HTML or plain text message body.
-     * If HTML then call isHTML(true).
-     * @var string
-     */
+    
     public $Body = '';
 
     /**
