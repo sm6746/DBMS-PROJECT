@@ -1,4 +1,5 @@
-📊 Online Examination System - DBMS Project 🎓
+📊 Online Examination System - DBMS Project 
+🎓
     A web-based exam platform built with PHP & MySQL for automated student evaluations.
 
 🛠️ Tech Stack
